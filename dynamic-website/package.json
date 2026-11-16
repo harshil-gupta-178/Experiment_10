@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-cloud-app",
+  "version": "1.0.0",
+  "description": "Experiment 10: Dynamic Web Application for Heroku and AWS Deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "dynamic",
+    "express",
+    "heroku",
+    "aws",
+    "experiment-10"
+  ],
+  "author": "Lab Student",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.14"
+  }
+}
